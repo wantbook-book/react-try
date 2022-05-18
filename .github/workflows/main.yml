@@ -28,8 +28,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run UTs
-        run: npm test
+#       - name: Run UTs
+#         run: npm test
 
       - name: Build production app
         run: npm run build
